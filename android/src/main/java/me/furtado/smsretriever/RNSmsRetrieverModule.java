@@ -2,7 +2,9 @@ package me.furtado.smsretriever;
 
 import android.app.Activity;
 import androidx.annotation.NonNull;
+import java.util.ArrayList;
 
+import me.furtado.smsretriever.AppSignatureHelper;
 import com.facebook.react.bridge.ActivityEventListener;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -58,5 +60,17 @@ final class RNSmsRetrieverModule extends ReactContextBaseJavaModule {
 
   //endregion
 
+  // region - AppSignature
+
+  @ReactMethod
+  public void getAppSignature(Promise promise) {
+    AppSignatureHelper appSignature = new AppSignatureHelper(getReactApplicationContext());
+    ArrayList<String> sigs =  appSignature.getAppSignatures();
+    for (String result : sigs) {
+      promise.resolve(result);
+    }
+  }
+
+  //  endregion
 
 }

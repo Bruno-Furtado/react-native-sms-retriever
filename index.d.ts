@@ -9,7 +9,8 @@ declare const SmsRetrieverModule: {
   requestPhoneNumber: () => Promise<string>
   startSmsRetriever: () => Promise<boolean>
   addSmsListener: (callback: (event: SmsListenerEvent) => void) => Promise<boolean>
-  removeSmsListener: () => void
+  removeSmsListener: () => void,
+  getAppSignature: () => Promise<string>
 }
 
 export default SmsRetrieverModule
