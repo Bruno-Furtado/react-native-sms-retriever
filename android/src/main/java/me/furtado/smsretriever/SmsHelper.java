@@ -57,7 +57,7 @@ final class SmsHelper {
         final IntentFilter intentFilter = new IntentFilter(SmsRetriever.SMS_RETRIEVED_ACTION);
 
         try {
-            mContext.registerReceiver(mReceiver, intentFilter);
+            mContext.registerReceiver(mReceiver, intentFilter,"com.google.android.gms.auth.api.phone.permission.SEND",null);
             return true;
         } catch (Exception e) {
             e.printStackTrace();
