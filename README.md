@@ -69,8 +69,18 @@ _onSmsListenerPressed = async () => {
 };
 ```
 
-> If you have problems to get the SMS content, check the [SMS Rules Wiki Page](https://github.com/Bruno-Furtado/react-native-sms-retriever/wiki/SMS-Rules).
+### SMS Rules
 
+The [SMS Retriever API](https://developers.google.com/identity/sms-retriever/overview) has some rules for message. A valid verification message might look like the following:
+
+```txt
+Your Example app code is: 123ABC78
+f8Escobih1Z
+```
+
+Too see how to generate the hash access [this link](https://developers.google.com/identity/sms-retriever/verify#1_construct_a_verification_message).
+
+Alternatively, you can get your app's hash string with the [AppSignatureHelper](https://github.com/googlesamples/android-credentials/blob/master/sms-verification/android/app/src/main/java/com/google/samples/smartlock/sms_verify/AppSignatureHelper.java) class.
 
 ## Methods
 
