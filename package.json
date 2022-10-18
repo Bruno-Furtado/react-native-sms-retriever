@@ -1,19 +1,39 @@
 {
-  "name": "react-native-sms-retriever",
-  "version": "1.1.1",
-  "description": "Android SMS Retriever API for React Native",
-  "homepage": "https://github.com/Bruno-Furtado/react-native-sms-retriever",
-  "readme": "https://github.com/Bruno-Furtado/react-native-sms-retriever#readme",
-  "license": "MIT",
-  "author": "Bruno Tortato Furtado <bruno@furtado.me> (https://www.furtado.me/)",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Bruno-Furtado/react-native-sms-retriever.git"
+  "_from": "react-native-sms-retriever@^1.1.1",
+  "_id": "react-native-sms-retriever@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-WRwiITfssx59+TB1iEMmjB7w4OTkatR34js5+4a4pP2jMXJ4aLdXK0hOtHxl8ciS8aIejdd49Sz8AXonlvtdRw==",
+  "_location": "/react-native-sms-retriever",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-sms-retriever@^1.1.1",
+    "name": "react-native-sms-retriever",
+    "escapedName": "react-native-sms-retriever",
+    "rawSpec": "^1.1.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-sms-retriever/-/react-native-sms-retriever-1.1.1.tgz",
+  "_shasum": "e87225836b394560c63db4c106552a0b9247d9b3",
+  "_spec": "react-native-sms-retriever@^1.1.1",
+  "_where": "D:\\Projects\\Upgrade Project\\skoolify",
+  "author": {
+    "name": "Bruno Tortato Furtado",
+    "email": "bruno@furtado.me",
+    "url": "https://www.furtado.me/"
   },
   "bugs": {
     "url": "https://github.com/Bruno-Furtado/react-native-sms-retriever/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Android SMS Retriever API for React Native",
+  "homepage": "https://github.com/Bruno-Furtado/react-native-sms-retriever",
   "keywords": [
     "Android",
     "SMS Retriever",
@@ -25,7 +45,15 @@
     "React Native",
     "react-native"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-sms-retriever",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruno-Furtado/react-native-sms-retriever.git"
+  },
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 1"
-  }
+  },
+  "version": "1.1.1"
 }
