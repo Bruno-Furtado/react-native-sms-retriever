@@ -23,15 +23,6 @@ With the [SMS Retriever API](https://developers.google.com/identity/sms-retrieve
 
 ## Installation
 
-
-### Automatic linking (>= 0.60)
-
-```bash
-npm install --save react-native-sms-retriever
-```
-
-### Manual linking (< 0.60)
-
 ```bash
 npm install --save react-native-sms-retriever
 react-native link react-native-sms-retriever
